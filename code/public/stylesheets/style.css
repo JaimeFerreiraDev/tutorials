@@ -1,0 +1,84 @@
+header{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  background-color: blueviolet;
+  color:white; 
+}
+
+#face{
+  width: 200px;
+  margin: 10px;
+  background-color: white;
+}
+
+#titleblock{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  text-align:center;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+  color:white;
+  width:150%;
+  padding-top:10px;
+  padding-left:10px;
+  margin-top:10px;
+  
+}
+
+nav a:link{
+  color:white
+}
+nav a:visited{
+  color:white
+}
+
+#relatedSites{
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+  padding-top:10px;
+  padding-left:10px;
+  margin-top:10px;
+  margin-left:10px;
+  border: 2px solid blueviolet;
+  width:150%;
+
+}
+#relatedSites a:visited{
+  color:blueviolet;
+}
+#relatedSites a:link{
+  color:blueviolet;
+}
+
+.grid-container{
+  display:grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 10% 80% 10%;
+}
+
+#maindiv{
+  display: flex;
+}
+
+footer{
+  background-color: blueviolet;
+  color:white; 
+  margin-top:10px;
+}
+
+main {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  columns: #333333;
+}
+
+a {
+  color: #00B7FF;
+}

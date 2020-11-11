@@ -19,16 +19,19 @@ header{
   text-align:center;
 }
 
+
+
+
+
 nav{
   display: flex;
   flex-direction: column;
   background-color: blueviolet;
   color:white;
-  width:150%;
   padding-top:10px;
   padding-left:10px;
   margin-top:10px;
-  
+  height:100%;
 }
 
 nav a:link{
@@ -46,10 +49,11 @@ nav a:visited{
   padding-left:10px;
   margin-top:10px;
   margin-left:10px;
+  width:auto;
   border: 2px solid blueviolet;
-  width:150%;
-
+  height:100%;
 }
+
 #relatedSites a:visited{
   color:blueviolet;
 }
@@ -57,24 +61,31 @@ nav a:visited{
   color:blueviolet;
 }
 
-.grid-container{
-  display:grid;
-  grid-template-columns: 15% 70% 15%;
-  grid-template-rows: 10% 80% 10%;
-}
+.item1 { grid-area: header;}
+.item2 { grid-area: nav; }
+.item3 { grid-area: main; }
+.item4 { grid-area: side; }
+.item5 { grid-area: footer; }
 
-#maindiv{
-  display: flex;
-}
+.grid-container {
+  display: grid;
+  grid-template:
+    'header header header'
+    'nav main side'
+    'footer footer footer';
+    grid-template-columns: 10% auto 10%;
+  }
 
 footer{
   background-color: blueviolet;
   color:white; 
-  margin-top:10px;
+  margin-top:30px;
 }
 
 main {
-  padding: 50px;
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-left:50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   columns: #333333;
 }

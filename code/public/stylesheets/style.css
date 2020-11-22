@@ -93,3 +93,44 @@ main {
 a {
   color: #00B7FF;
 }
+
+#grades{
+  display:flex;
+
+}
+
+.unit{
+  display:flex;
+  background-color: cyan;
+  height: 75px;
+  width: 200px;
+  margin:10px;
+}
+
+.failed{
+  display:flex;
+  background-color: red;
+  height: 75px;
+  width: 200px;
+  margin:10px;
+}
+
+.initials{
+  background-color: blueviolet;
+  height: 40px;
+  width: 50px;
+  font-size: 30px;
+  margin:10px;
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+.unitTitle{
+font-size: 18px;
+}
+
+.unitGrade{
+font-size: 14px;
+}
+

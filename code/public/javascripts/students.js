@@ -14,6 +14,9 @@ window.onload=function(){
     document.getElementById("students").innerHTML = aux;
 }
 
+
+
+
 function showStudent(index){
     sessionStorage.setItem("sindex",index);
     sessionStorage.setItem("sname",arrayOfStudents[index].name);

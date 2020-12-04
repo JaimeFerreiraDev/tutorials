@@ -1,5 +1,23 @@
 <head>
-    <title>
-        Grading
-    </title>
+    <title>Grading</title>
+    <link rel="stylesheet" href="/stylesheets/grading.css">
+    <script src="javascripts/form.js"> </script>
 </head>
+<body>
+    <main id="formMain">
+        <form id="form" action="/action_page.php">
+            Student Name: <select id="sname" name="sname"></select><br> 
+            Unit Name: <select id="uname" name="uname"></select><br>
+            Project Grade: <input type="text" id="pgrade" name="pgrade">
+            Percentage: <input type="text" id="ppercentage" name="ppercentage"><br>
+            <p id="error1" class="hide"></p>
+            Test Grade: <input type="text" id="tgrade" name="tgrade">
+            Percentage: <input type="text" id="tpercentage" name="tpercentage"><br>
+            <p id="error2" class="hide"></p>
+            <p id="error3" class="hide"></p><br>
+            <input type="button" onclick="calculate()" value="Calculate">
+            <input type="reset" value="Reset">
+          </form>
+          <h3 id="formResult"></h3>   
+    </main>
+</body>

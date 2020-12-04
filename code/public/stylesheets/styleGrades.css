@@ -1,0 +1,56 @@
+#maindetails{
+  display:flex;
+}
+
+#details{
+    
+  height: 100%;
+  width: 150px;
+  margin-top: 60px;
+  border: 5px solid blueviolet;
+  color:blueviolet;
+  font-size: larger;
+  
+}
+
+
+
+#grades{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  
+  .unit{
+    display:flex;
+    background-color: cyan;
+    height: 120px;
+    width: 200px;
+    margin:10px;
+  }
+  
+  .failed{
+    display:flex;
+    background-color: red;
+    height: 120px;
+    width: 200px;
+    margin:10px;
+  }
+  
+  .initials{
+    background-color: blueviolet;
+    height: 40px;
+    width: 50px;
+    font-size: 30px;
+    margin:10px;
+    text-align: center;
+    padding-top: 10px;
+  
+  }
+  
+  .unitTitle{
+  font-size: 18px;
+  }
+  
+  .unitInfo{
+  font-size: 14px;
+  }

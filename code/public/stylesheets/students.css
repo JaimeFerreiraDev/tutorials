@@ -1,0 +1,12 @@
+#students{
+    display:flex;
+    flex-wrap: wrap;
+}
+.student{
+    background-color: lightslategray;
+    padding-top: 1px;
+    padding-left:20px;
+    height: 100px;
+    width: 150px;
+    margin:10px;
+  }
